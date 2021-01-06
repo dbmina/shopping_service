@@ -1,17 +1,14 @@
-"# shopping_service2" 
-Objective : Implement a simple shopping service with client/admin interfaces and a database to
-store the product and user information.
-Description: You are a senior developer of an online shopping mall. Your mission is to
-implement an online shopping service to manage the product and user information. In addition,
-you are requested to implement a customized product recommendation functionality.
-Before you jump into the implementations, you may want to understand the overall structure of
-this service. The below figure shows the overall structure of the shopping system.
-The system mainly consists of 3 classes: AdminUI , ClientUI , and ShoppingDB (along with a few
-additional classes supporting these key classes.)
-● The AdminUI class provides interfaces for admins.
-● The ClientUI class provides interfaces for clients.
-● The ShoppingDB object receives the queries from the AdminUI object and ClientUI object,
-and returns the corresponding data.
+"# shopping_service2"      
+Objective : Implement a simple shopping service with client/admin interfaces and a database to store the product and user information.         
+Description: You are a senior developer of an online shopping mall.       
+Your mission is to implement an online shopping service to manage the product and user information. 
+In addition, you are requested to implement a customized product recommendation functionality.       
+Before you jump into the implementations, you may want to understand the overall structure of this service.          
+The below figure shows the overall structure of the shopping system.         
+The system mainly consists of 3 classes: AdminUI , ClientUI , and ShoppingDB (along with a few additional classes supporting these key classes.)      
+● The AdminUI class provides interfaces for admins.      
+● The ClientUI class provides interfaces for clients.           
+● The ShoppingDB object receives the queries from the AdminUI object and ClientUI object, and returns the corresponding data.          
 
 Objectives: Implement three methods of AdminUI to manage product data.  
 Description: For the first step, implement an interface for admins to manage product data. In    
