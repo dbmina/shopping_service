@@ -1,4 +1,4 @@
-"# shopping_service2"      
+
 Objective : Implement a simple shopping service with client/admin interfaces and a database to store the product and user information.         
 Description: You are a senior developer of an online shopping mall.       
 Your mission is to implement an online shopping service to manage the product and user information. 
@@ -11,16 +11,13 @@ The system mainly consists of 3 classes: AdminUI , ClientUI , and ShoppingDB (al
 ● The ShoppingDB object receives the queries from the AdminUI object and ClientUI object, and returns the corresponding data.          
 
 Objectives: Implement three methods of AdminUI to manage product data.  
-Description: For the first step, implement an interface for admins to manage product data. In    
-particular, implement the following methods of AdminUI . You also need to modify/add functions   
-in the ShoppingDB class to store product data in the ShoppingDB object; this will be required for    
-problems 1-2 and 1-3.
+Description: For the first step, implement an interface for admins to manage product data. 
+In particular, implement the following methods of AdminUI . 
+You also need to modify/add functionsin the ShoppingDB class to store product data in the ShoppingDB object; this will be required for problems 1-2 and 1-3.
 ● Implement void AdminUI::add_product(std::string name, int price) .    
 ○ This function adds a product entry with the given name and price in the database.    
-See the template code of the ShoppingDB class and decide on how to store the     
-product information appropriately.                 
-○ If the given price is positive, print “ADMIN_UI: <PRODUCT_NAME> is added to          
-the database.”. (“<PRODUCT_NAME>” should be replaced with the name of the               
+See the template code of the ShoppingDB class and decide on how to store the product information appropriately.                 
+○ If the given price is positive, print “ADMIN_UI: <PRODUCT_NAME> is added to the database.”. (“<PRODUCT_NAME>” should be replaced with the name of the               
 product; do not print “<” and “>”.)             
 ○ If the given price is equal to or less than zero, print "ADMIN_UI: Invalid price.".             
 ○ Assume that no duplicated names of products or users will be given.             
